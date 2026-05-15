@@ -38,21 +38,21 @@ flowchart TD
 
 | 章节 | 主题 | 读完后你应该会什么 |
 | --- | --- | --- |
-| [docs/01-认识LLM.md](docs/01-认识LLM.md) | LLM 是什么 | 理解 LLM 的边界、生命周期与常见误解 |
-| [docs/02-数学与神经网络预备.md](docs/02-数学与神经网络预备.md) | 数学和深度学习基础 | 看懂向量、矩阵、损失函数、梯度、反向传播 |
-| [docs/03-文本表示与分词器.md](docs/03-文本表示与分词器.md) | 文本如何变成模型输入 | 理解 token、词表、子词和 tokenizer |
-| [docs/04-从N-gram到RNN再到Attention.md](docs/04-从N-gram到RNN再到Attention.md) | 模型演化史 | 明白为什么最终会走向 Transformer |
-| [docs/05-Transformer总览.md](docs/05-Transformer总览.md) | Transformer 整体结构 | 从数据流角度读懂 Encoder/Decoder |
-| [docs/06-Transformer核心公式详解.md](docs/06-Transformer核心公式详解.md) | 关键公式与张量变化 | 能解释注意力公式、位置编码和损失函数 |
-| [docs/07-主流LLM架构谱系.md](docs/07-主流LLM架构谱系.md) | 主流架构对比 | 说清 BERT、GPT、T5 和扩展架构差异 |
-| [docs/08-从零实现Tokenizer.md](docs/08-从零实现Tokenizer.md) | 手写 tokenizer | 自己训练词表、编码和解码 |
-| [docs/09-从零实现Mini-Transformer.md](docs/09-从零实现Mini-Transformer.md) | 手写 mini Transformer | 自己搭建训练循环并跑通最小模型 |
-| [docs/10-预训练、微调与对齐.md](docs/10-预训练、微调与对齐.md) | 训练和对齐 | 搞清预训练、SFT、RLHF、DPO 的关系 |
-| [docs/11-推理、Prompt 与评测.md](docs/11-推理、Prompt 与评测.md) | 推理与评估 | 会调采样参数、理解幻觉和评测 |
-| [docs/12-高效微调、RAG 与项目化开发.md](docs/12-高效微调、RAG 与项目化开发.md) | 工程增强 | 会选 Prompt、微调或 RAG 的合适方案 |
-| [docs/13-本地部署与服务化.md](docs/13-本地部署与服务化.md) | 本地部署 | 在普通电脑或单卡环境完成本地服务化 |
-| [docs/14-面试与工程实战题.md](docs/14-面试与工程实战题.md) | 面试与工程收口 | 能讲清项目、原理、调优与排障 |
-| [docs/appendix-glossary.md](docs/appendix-glossary.md) | 术语与公式索引 | 快速查术语、缩写和常见公式 |
+| [01_初识/01-认识LLM.md](01_初识/01-认识LLM.md) | LLM 是什么 | 理解 LLM 的边界、生命周期与常见误解 |
+| [01_初识/02-数学与神经网络预备.md](01_初识/02-数学与神经网络预备.md) | 数学和深度学习基础 | 看懂向量、矩阵、损失函数、梯度、反向传播 |
+| [01_初识/03-文本表示与分词器.md](01_初识/03-文本表示与分词器.md) | 文本如何变成模型输入 | 理解 token、词表、子词和 tokenizer |
+| [01_初识/04-从N-gram到RNN再到Attention.md](01_初识/04-从N-gram到RNN再到Attention.md) | 模型演化史 | 明白为什么最终会走向 Transformer |
+| [01_初识/05-Transformer总览.md](01_初识/05-Transformer总览.md) | Transformer 整体结构 | 从数据流角度读懂 Encoder/Decoder |
+| [01_初识/06-Transformer核心公式详解.md](01_初识/06-Transformer核心公式详解.md) | 关键公式与张量变化 | 能解释注意力公式、位置编码和损失函数 |
+| [01_初识/07-主流LLM架构谱系.md](01_初识/07-主流LLM架构谱系.md) | 主流架构对比 | 说清 BERT、GPT、T5 和扩展架构差异 |
+| [01_初识/08-从零实现Tokenizer.md](01_初识/08-从零实现Tokenizer.md) | 手写 tokenizer | 自己训练词表、编码和解码 |
+| [01_初识/09-从零实现Mini-Transformer.md](01_初识/09-从零实现Mini-Transformer.md) | 手写 mini Transformer | 自己搭建训练循环并跑通最小模型 |
+| [01_初识/10-预训练、微调与对齐.md](01_初识/10-预训练、微调与对齐.md) | 训练和对齐 | 搞清预训练、SFT、RLHF、DPO 的关系 |
+| [01_初识/11-推理、Prompt 与评测.md](01_初识/11-推理、Prompt 与评测.md) | 推理与评估 | 会调采样参数、理解幻觉和评测 |
+| [01_初识/12-高效微调、RAG 与项目化开发.md](01_初识/12-高效微调、RAG 与项目化开发.md) | 工程增强 | 会选 Prompt、微调或 RAG 的合适方案 |
+| [01_初识/13-本地部署与服务化.md](01_初识/13-本地部署与服务化.md) | 本地部署 | 在普通电脑或单卡环境完成本地服务化 |
+| [01_初识/14-面试与工程实战题.md](01_初识/14-面试与工程实战题.md) | 面试与工程收口 | 能讲清项目、原理、调优与排障 |
+| [01_初识/appendix-glossary.md](01_初识/appendix-glossary.md) | 术语与公式索引 | 快速查术语、缩写和常见公式 |
 
 ## 环境建议
 
@@ -104,9 +104,9 @@ flowchart TD
 - [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683)
 - [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)
 - [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361)
-- [Transformers 官方文档](https://huggingface.co/docs/transformers/en/quicktour)
-- [PEFT 官方文档](https://huggingface.co/docs/peft/en/index)
-- [TRL 官方文档](https://huggingface.co/docs/trl/en/index)
+- [Transformers 官方文档](https://huggingface.co/01_初识/transformers/en/quicktour)
+- [PEFT 官方文档](https://huggingface.co/01_初识/peft/en/index)
+- [TRL 官方文档](https://huggingface.co/01_初识/trl/en/index)
 - [llama.cpp](https://github.com/ggml-org/llama.cpp)
 - [Ollama 文档](https://docs.ollama.com/)
 - [vLLM 文档](https://docs.vllm.ai/en/latest/)
